@@ -1,0 +1,9 @@
+parameters:
+    level: 10
+    paths:
+        - .
+    excludePaths:
+        - vendor/*
+        - resources/*
+        - phpstan.phar
+    treatPhpDocTypesAsCertain: false

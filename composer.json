@@ -1,0 +1,43 @@
+{
+    "name": "astrx/injector",
+    "description": "Constructor injection with explicit shared instances and config-driven setters.",
+    "license": "LicenseRef-DoWhatever",
+    "type": "library",
+    "keywords": [
+        "astrx",
+        "no-javascript",
+        "server-rendered"
+    ],
+    "homepage": "https://github.com/Vxmdzhb/injector",
+    "require": {
+        "php": ">=8.4",
+        "astrx/config": "self.version",
+        "astrx/result": "self.version"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "AstrX\\Injector\\": ""
+        }
+    },
+    "extra": {
+        "astrx": {
+            "resources": "resources"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Vxmdzhb/result"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Vxmdzhb/support"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Vxmdzhb/config"
+        }
+    ]
+}
